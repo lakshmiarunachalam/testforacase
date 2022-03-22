@@ -29,7 +29,7 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
         </con:settings>
         <con:endpoint>http://localhost:8084</con:endpoint>
-        <con:request>{"sample" : "1 "}</con:request>
+        <con:request>{"sample" : "2 "}</con:request>
         <con:originalUri>http://localhost/login</con:originalUri>
         <con:assertion type="Valid HTTP Status Codes" id="54943923-c5d6-4a3d-a176-a7a20d56b664" name="Valid HTTP Status Codes">
           <con:settings/>
